@@ -34,7 +34,10 @@ class HomePage extends StatelessWidget {
             ),
             Text(
               "DOMINEUM",
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(
+                fontSize: 30,
+                fontFamily: "Objective",
+              ),
             ),
           ],
         ),
@@ -52,6 +55,7 @@ class HomePage extends StatelessWidget {
                 "GET STARTED",
                 style: TextStyle(
                   color: Colors.white,
+                  fontFamily: "Objective",
                 ),
               ),
             ),
@@ -89,8 +93,11 @@ class HomePage extends StatelessWidget {
                           children: [
                             Text(
                               "VERIFICATION\nMADE EASY",
-                              style:
-                                  TextStyle(fontSize: 60, color: Colors.white),
+                              style: TextStyle(
+                                fontSize: 60,
+                                color: Colors.white,
+                                fontFamily: "Objective",
+                              ),
                             ),
                             SizedBox(
                               height: 10,
